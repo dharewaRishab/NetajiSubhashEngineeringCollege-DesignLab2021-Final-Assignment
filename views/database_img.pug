@@ -1,0 +1,23 @@
+html
+  head
+  body
+   form(method='post', enctype='multipart/form-data')
+    input(type='file', name='image')
+    input(type='submit', name='uploadimage', value='Upload Image')
+   
+   
+   form(action='/upload', method='POST')
+    input(type='text', name='fnam', value='',placeholder="update your first name.." required)
+    input(type='text', name='lnam', value='',placeholder="update your last name.." required)
+    input(type='submit', value='Submit')
+  
+   img(src=img alt='pic' style='width:200px; height:200px;')
+
+   h1= man
+
+
+
+
+
+
+// img(src='/images/dfs_in_tree.png')
