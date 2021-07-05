@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+  <div class="registration-form">
+    <h3>Registration Form</h3>
+    <form method="post" action="/">
+
+      <div class="form-container">
+        <div><input type="text" placeholder="First Name" value="" name="first_name" required></div>
+        <div><input type="text" placeholder="Last Name" value="" name="last_name" required></div>
+      </div>
+      <div class="form-container">
+        <div><input type="password" placeholder="Password" name="password"></div>
+      </div>
+      <div class="form-container">
+        <div><input type="email" placeholder="Email Address" name="email" required></div>
+        <div><br><input type="radio" value="male" name="gender" required><label>Male</label>
+          <input type="radio" value="female" name="gender" required><label>Female</label>
+        </div>
+      </div>
+      <button type="submit">Register Now</button>
+      <a href="/login">Login</a>
+    </form>
+  </div>
+
+
+
+</body>
+
+</html>
